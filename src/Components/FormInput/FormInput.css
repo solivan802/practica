@@ -1,0 +1,15 @@
+input{
+  padding: 15px;
+  margin: 10px 0px;
+}
+
+span{
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  color: red;
+  display: none;
+}
+
+input:invalid ~ span {
+  display: block;
+}
